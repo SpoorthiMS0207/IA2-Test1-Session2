@@ -56,7 +56,7 @@ void output(int n, Triangle t[n], Triangle smallest)
   {
     printf("%f, %f and\n", t[i].base, t[i].altitude);
   }
-  printf("%f, %f\nis\ntriangle with base = %f and altitude = %f having area = %f\n", t[n-1].base, t[n-1].altitude, smallest.base, smallest.altitude, smallest.area);
+  printf("The smallest amonf %f, %f\nis\ntriangle with base = %f and altitude = %f having area = %f\n", t[n-1].base, t[n-1].altitude, smallest.base, smallest.altitude, smallest.area);
 }
 int main()
 {
